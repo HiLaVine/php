@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="/formulario/materialize/css/materialize.css"  media="screen,projection"/>
+    <meta charset="UTF-8">
+    <title>.::Formularios::.</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+              <a href="" class="brand-logo">Formulario</a>
+            </div>
+          </nav>
+        <h1 >Introduce los siguientes datos</h1>
+        <form name="registro" action="confirmacion.php" method="post">
+            <fieldset>
+            <label for="boleta">Boleta: </label>
+            <input type="text" name="boleta" id="boleta" maxlength="10"><br><br>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name">
+            <label for="Lname">Apellido Paterno: </label>
+            <input type="text" name="Lname" id="Lname">
+            <label for="Mname">Apellido Materno: </label>
+            <input type="text" name="Mname" id="Mname"><br><br>
+            <label for="mail">Correo: </label>
+            <input type="text" name="mail" id="mail"><br><br>
+            <label for="pass">Contraseña: </label>
+            <input type="password" name="pass" id="pass"><br><br>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Entregar
+              <i class="material-icons right">send</i>
+            </button>
+        </fieldset>
+        </form>
+    </body>
+</html>
